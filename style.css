@@ -232,7 +232,77 @@ transform: translateX(800PX);
 }
 
 
+#contact {
+  min-height: 100vh;
+  background:linear-gradient(rgba(0,0,0,0.5),transparent), url('./img/contact.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.form-wrapper{
+  background: rgba(19,28,39,0.9);
+  width: 60%;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.form-header{
+  text-align: center;
+  padding: 4rem;
+}
+
+.name-form,
+.email-form{
+  padding: 2rem;
+  text-align: center;
+}
+
+.form-wrapper label{
+  margin:0rem 3rem;
+}
+
+.form-wrapper button {
+  width: 100%;
+  padding: 2rem; 
+  margin-top: 8rem;
+ border-bottom-left-radius:20px ;
+ border-bottom-right-radius:20px ;
+ text-align: center;
+}
+
+.form-wrapper input{
+  padding: 1rem 3rem;
+}
+
+footer{
+  color: #Fff;
+  background: rgba(19,28,39,1);
+}
+
+.footer-wrapper {
+ display: flex;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  min-height: 10vh;
+  flex-wrap: wrap;
+  
+
+}
+
+footer ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+}
 
 
 
